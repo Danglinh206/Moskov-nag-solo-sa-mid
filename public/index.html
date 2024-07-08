@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Drive Upload API (JONELL MAGALLANES)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://files.catbox.moe/oznaa1.png" type="image/x-icon"> 
+    <meta name="description" content="Upload Your Using Google Drive Link Generated No Expired Links (Jonell Magallanes)">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="background-wrap">
+    <div class="x1">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x2">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x3">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x4">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x5">
+        <div class="cloud"></div>
+    </div>
+</div>
+    <div class="container mt-5">
+        <h2 class="mb-4">File Upload Alternative Google Drive</h2>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <div class="custom-file mb-3">
+                <input type="file" class="custom-file-input" id="fileInput" name="file">
+                <label class="custom-file-label" for="fileInput">Choose file</label>
+                
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" id="uploadButton">☁️ Upload file</button>
+            <div id="loader" class="loader d-none"></div>
+        </form>
+        <div id="uploadInfo" class="mt-3 d-none">
+            <div class="file-info" id="fileName"></div>
+            <div class="file-link mt-2" id="fileLink"></div>
+            <button class="btn btn-success btn-sm mt-2" id="copyLinkButton">📋 Copy Link</button>
+        </div>
+        <div class="centered-button">
+            <a href="/docs.html" target="_blank">Documentation</a>
+        </div>
+        <div id="result" class="mt-3"></div>
+    </div>
+    <footer class="watermark">
+        <p>Simply Web: Jonell Magallanes</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
